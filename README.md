@@ -1,2 +1,2 @@
 # Portfolio
-- Visti the website: https://raools-portfolio.netlify.app/
+- Visit the website: https://raools-portfolio.netlify.app/
