@@ -99,6 +99,68 @@ gsap.to(".bar", 1.5, {
     onComplete: checkCompletion // Callback to check after bars retract
 });
 
+gsap.from(".logo",1.5, {
+    delay:3.7,
+    y: 700,
+    stagger:{
+        amount:0.5,
+    },
+    ease : "power4.inOut",
+    onComplete: checkCompletion
+});
+
+// gsap.from(".nav-links",1.5, {
+//     delay:4.05,
+//     y: 700,
+//     stagger:{
+//         amount:0.5,
+//     },
+//     ease : "power4.inOut",
+//     onComplete: checkCompletion
+// });
+gsap.from(".a1",1.5, {
+    delay:3.8,
+    y: 700,
+    stagger:{
+        amount:0.5,
+    },
+    ease : "power4.inOut",
+    onComplete: checkCompletion
+});
+
+gsap.from(".section__pic-container",1.5, {
+    delay:3.9,
+    y: 700,
+    stagger:{
+        amount:0.5,
+    },
+    ease : "power4.inOut",
+    onComplete: checkCompletion
+});
+
+gsap.from(".section__text",1.5, {
+    delay:4,
+    y: 700,
+    stagger:{
+        amount:0.5,
+    },
+    ease : "power4.inOut",
+    onComplete: checkCompletion
+});
+
+// gsap.from(".icon",1.5, {
+//     delay:4,
+//     y: 700,
+//     stagger:{
+//         amount:0.5,
+//     },
+//     ease : "power4.inOut",
+//     onComplete: checkCompletion
+// });
+
+
+
+
 // Function to check if all animations are completed
 function checkCompletion() {
     // Get both the counter and bars
